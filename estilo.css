@@ -1,0 +1,309 @@
+*{
+	margin: 0; padding: 0;
+}
+
+.sobre p{
+	font: 0.9rem 'Roboto', sans-serif;
+	padding-left: 3%;
+	padding-top: 1%;
+	padding-right: 3%;
+
+}
+
+.Parceiros{
+	width: 100%;
+	height: 300px;
+	padding-left: 5%;
+	margin-top: -100px;
+	display:flex;
+}
+
+.Parceiros img{
+	width: 8vw;
+	height: 15vh;
+}
+
+#NosLogo{
+	height: 80%;
+	width: 80%;
+	padding-left: 12%;
+	padding-top: 4%;
+}
+
+#monster{
+	width: 100%;
+	height: 100%;
+}
+
+#sparco{
+	width: 22%;
+	height: 22%;
+	padding-left: 12%;
+}
+
+#SPA{
+	width: 40%;
+	height: 100%;
+	padding-left: 5%;
+}
+
+h1{
+	padding-bottom: 20%;
+	text-align: center;
+	font-size: 2.3rem;
+}
+
+h2{
+	padding-left: 3%;
+	padding-top: 3%;
+}
+
+#sumario{
+	width: 100%;
+	height: 45px;
+	background-color: #000000;
+	position: fixed;
+
+}
+
+#sumario ul{
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+#sumario li{
+	list-style-type: none;
+	color: #FFFFFF;
+	margin: 15px;
+}
+
+#lista ul{
+	padding-top: 30%;
+}
+
+#lista p{
+	font-size: 1.3rem;
+}
+
+#lista{
+	padding-right: 15%;
+}
+
+.parceiro{
+	padding-bottom: 10%;
+	padding-top: 10%;
+	width: 170%;
+}
+
+#gradiente1{
+	background-image: linear-gradient(to right, #000000, #274B16, #407728, #5FC232);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#gradiente2{
+	background-image: linear-gradient(to right, #000000 2%, #092544 30%, #134F92 43%, #1C6DA9 15%, #1D80B4 10%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#gradiente3{
+	background-image: linear-gradient(to right, #000000, #857a11, #a89b16, #dbca1f, #fff382);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#gradiente4{
+	background-image: linear-gradient(to right, #000000, #07038f, #0600cc, #0800fc);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.container-logo1, .container-logo2{
+	justify-content: space-between;
+}
+
+.container-logo2{
+	padding-top: 1.2%;
+}
+
+.card-logo2{
+	background-color: #000000;
+	border-radius: 50%;
+	height: 16%;
+	width: 100%;
+	padding-top: 25%;
+	padding-bottom: 25%;
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	width: 100%;
+	height: 15%;
+}
+
+.cont{
+	width: 31%;
+	/*height: ;*/
+}
+
+.card{
+	background-color: #F4F4F4;
+	margin: 20px;
+	height: 90%;
+	width: 90%;
+	border-radius: 20px;
+	box-shadow: 0 5px 9px #CCC;
+	transition: 0.5;
+	text-align: center;
+}
+
+.card-img{
+	width: 100%;
+	height: 50%;
+}
+
+
+
+.card:hover{
+	box-shadow: 0 10px 18px #CCC;
+}
+
+.card-content{
+	padding: 10px;
+}
+
+.card-content p{
+	line-height: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: #001a69;
+	font-size: 1.3rem;
+}
+
+.a{
+	color: #FFFFFF;
+	font-size: 1.2rem;
+}
+
+header{
+	margin: top 20%;
+	width: 100%;
+	background-color: #dddddd;
+	height: 290px;
+}
+
+header img{ 
+ 	width: 100%;
+	height: 290px;
+	position: absolute;
+}
+.logo{
+	width: 280px;
+	height: 280px;
+	padding-left: 90px;
+	border-radius: 70px;
+}
+
+.lado{
+	width: 23%;
+	height: 1850px;
+	background-color: #dddddd;
+	float: left;
+}
+
+nav{
+	float: left;
+	z-index: 1;	
+}
+
+main{
+	width: 54%;
+	height: 100%;
+	background-color: #FFFFFF;
+	float: left;
+	padding-top: 5vh;
+}
+
+footer{
+	position: fixed;
+	width: 100%;
+	height: 60px;
+	background-color: #212121;
+	clear: both;
+	bottom: 0;
+}
+
+footer p{
+	color: #FFFFFF;
+	text-align: center;
+	padding: 20px;
+}
+
+.card-produtos{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+	height: ;
+	width: 100%;
+}
+
+.content-produtos{
+	height: 280px;
+	width: 19%;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.card-produtos img{
+	width: 10vw;
+}
+
+#Cheiro{
+	padding-top: 17%;
+}
+
+.sobre{
+	padding-bottom: 60px;
+	text-align: justify;
+}
+
+@media (max-width:500px) {
+	.lado{
+		display: none;
+	}
+	header img{
+		height: 20vh;
+	}
+	.container .cont{
+		display: flex;
+		justify-content: center;	
+	}
+	.card{
+		
+		width: 80vw;
+	}
+	.sobre{
+		padding-bottom: 30px;
+	}
+}
+@media (max-width:1280px) {
+	header img{
+		height: 20vh;
+	}
+	img{
+		position: relative;
+		width: 70%;
+	}
+
+}
