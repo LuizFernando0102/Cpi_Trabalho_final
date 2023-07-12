@@ -282,6 +282,10 @@ footer p a{
 	color: white;
 }
 
+.link-footer{
+	color: #FFFFFF;
+}
+
 @media (max-width:500px) {
 	.lado{
 		display: none;
